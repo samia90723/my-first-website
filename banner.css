@@ -1,0 +1,47 @@
+/* banner section */
+.hero-banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.hero-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* soft dark overlay */
+    color: white;
+    padding: 40px;
+    text-align: right;
+    border-radius: 12px;
+    max-width: 500px;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #000;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e0e0e0;
+}

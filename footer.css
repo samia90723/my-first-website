@@ -1,0 +1,77 @@
+/* footer section */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #111;
+    color: #ddd;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    margin-top: 30px;
+}
+
+/* Tick icon list for footer */
+.tick-list li {
+    position: relative;
+    padding-left: 20px;
+    /* space for the icon */
+}
+
+.tick-list li::before {
+    content: '✔';
+    color: #5e35b1;
+    position: absolute;
+    left: 0;
+}

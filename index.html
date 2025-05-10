@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gracious Garments</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="arrow.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Gracious Garments</div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+
+        <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-user"></i>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section class="hero-banner">
+        <div class="overlay">
+            <h1>Gracious Garments</h1>
+            <p>Elegance Woven In Every Thread</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Gracious Garments</h2>
+                    <p>
+                        At Gracious Garments, we believe that fashion is a reflection of who you are. Our collections
+                        are designed to empower, inspire, and elevate your wardrobe with timeless elegance and modern
+                        flair. From traditional ethnic pieces to trendy everyday wear, we bring quality, comfort, and
+                        style to your doorstep.
+                    </p>
+                    <ul>
+                        <li>Premium quality fabrics and fine craftsmanship</li>
+                        <li>Trendy ethnic & modern collections</li>
+                        <li>Perfect for daily wear and special occasions</li>
+                        <li>Affordable pricing with exclusive designs</li>
+                        <li>Hassle-free online shopping experience</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.avif" alt="About Gracious Garments">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-cards">
+
+                <div class="service-card">
+                    <i class="fas fa-cut icon"></i>
+                    <h3>Custom Stitching</h3>
+                    <p>Perfectly tailored designs that match your style and size.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-shipping-fast icon"></i>
+                    <h3>Free Delivery</h3>
+                    <p>Enjoy fast and free shipping on all orders across Pakistan.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-headset icon"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is always available to help with your questions.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-undo icon"></i>
+                    <h3>Easy Returns</h3>
+                    <p>Not satisfied? Return products within 7 days hassle-free.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone Number" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo & About -->
+            <div class="footer-section">
+                <h2>About Gracious Garments</h2>
+                <ul class="tick-list">
+                    <li>Premium quality fabrics and fine craftsmanship</li>
+                    <li>Trendy ethnic & modern collections</li>
+                    <li>Perfect for daily wear and special occasions</li>
+                    <li>Affordable pricing with exclusive designs</li>
+                    <li>Hassle-free online shopping experience</li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Service -->
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#services">Custom Stitching</a></li>
+                    <li><a href="#">Free Delivery</a></li>
+                    <li><a href="#">24/7 Customer Support</a></li>
+                    <li><a href="#">Easy Return Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- contact -->
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</li>
+                    <li><i class="fas fa-phone"></i> +92 312 3456789</li>
+                    <li><i class="fas fa-envelope"></i> support@graciousgarments.com</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            &copy; 2025 Gracious Garments. All rights reserved.
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
