@@ -1,3 +1,11 @@
+:root {
+    --primary: #ff6b98;
+    --secondary: #5d2a42;
+    --light: #fff9fb;
+    --dark: #2a0e1a;
+    --accent: #ffb8d1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #121212;
+    background-color: var(--secondary);
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -38,7 +46,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #f7c08a;
+    color: var(--primary);
 }
 
 /* Icons Section */
@@ -50,7 +58,7 @@ body {
 }
 
 .nav-icons i:hover {
-    color: #f7c08a;
+    color: var(--primary);
 }
 
 /* Hamburger menu */
@@ -66,7 +74,7 @@ body {
     .nav-links {
         display: none;
         flex-direction: column;
-        background-color: #1c1c1c;
+        background-color: var(--dark);
         position: absolute;
         top: 70px;
         right: 0;
